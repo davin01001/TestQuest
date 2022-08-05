@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestQuest", "TestQuest\TestQuest.csproj", "{911C8087-7D9E-48EC-96A4-258923FC69EB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{125AA463-10E6-4472-809A-282BB6547FED} = {125AA463-10E6-4472-809A-282BB6547FED}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestQuestModule", "TestQuestModule\TestQuestModule.vcxproj", "{125AA463-10E6-4472-809A-282BB6547FED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Mixed Platforms = Debug|Mixed Platforms
+		Debug|Win32 = Debug|Win32
+		Debug|x86 = Debug|x86
+		Release|Mixed Platforms = Release|Mixed Platforms
+		Release|Win32 = Release|Win32
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Debug|Mixed Platforms.Build.0 = Debug|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Debug|Win32.ActiveCfg = Debug|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Debug|x86.ActiveCfg = Debug|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Debug|x86.Build.0 = Debug|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Release|Mixed Platforms.ActiveCfg = Release|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Release|Mixed Platforms.Build.0 = Release|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Release|Win32.ActiveCfg = Release|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Release|x86.ActiveCfg = Release|x86
+		{911C8087-7D9E-48EC-96A4-258923FC69EB}.Release|x86.Build.0 = Release|x86
+		{125AA463-10E6-4472-809A-282BB6547FED}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Debug|Win32.ActiveCfg = Debug|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Debug|Win32.Build.0 = Debug|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Debug|x86.ActiveCfg = Debug|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Release|Win32.ActiveCfg = Release|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Release|Win32.Build.0 = Release|Win32
+		{125AA463-10E6-4472-809A-282BB6547FED}.Release|x86.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

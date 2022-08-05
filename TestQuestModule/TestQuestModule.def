@@ -1,0 +1,4 @@
+LIBRARY      "TestQuestModule.dll"
+
+EXPORTS
+	GetBases		PRIVATE
